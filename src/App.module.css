@@ -1,0 +1,25 @@
+body {
+    background: rgb(250, 250, 250);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    width: 370px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media(max-width:770px) {
+    .container {
+        margin: 0 10%;
+    }
+    h1 {
+        width: 100%
+    }
+}
